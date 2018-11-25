@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <script src='mainData.js' defer></script>
+    <script src='mainApp.js' defer></script>
+    <title>Cooling power Calcblator</title>
+</head>
+<body>
+    <div id='MainApp'>
+        <div id='inputs'>
+            <fieldset id='inputsData'>
+                <legend>Initial data</legend>
+                <label>Family:</label>
+                    <select id='cFamilyList'>
+                    <option value="" disabled selected hidden>Family</option>
+                    </select>
+                <label>Model:</label>
+                <select id='cModelList'>
+                        <option value="" disabled selected hidden>Model</option>
+                        </select>
+                <label>Condencer:</label>
+                <select id='cConList'>
+                        <option value="" disabled selected hidden>Condencer</option>
+                        </select>
+            </fieldset>
+        </div>
+        <div id='results'>
+            <fieldset id=condData>
+                <legend id='currentCond'>Conditioner</legend>
+            </fieldset>
+            <fieldset id=UPSData>
+                <legend>UPS</legend>
+            </fieldset>
+        </div>
+    </div>
+</body>
+</html>
